@@ -1,9 +1,10 @@
 /* Rendering Example:- Rendering is the process of transforming the component code you write into user interfaces 
 that users can see and interact with.
--> In Next.js, the tricky part to builiding a performant application is figuring out when and where this transformation 
+-> In Next.js, the tricky part of builiding a performant application is figuring out when and where this transformation 
 should happen.
-1. client side rendering(CSR):- client means browser
-2. Server Side Rendering(SSR)
+
+1. client side rendering(CSR):- client means browser -- see in the document
+2. Server Side Rendering(SSR) -- see in the document
 
 server side solutions
 1. Static Site Generation.

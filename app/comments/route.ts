@@ -12,7 +12,7 @@ In the context of next.js the type of request is NextRequest this object
 
 */
 export async function GET(request: NextRequest){
-    //gran all query parameters using below
+    //grab all query parameters using below
     const searchParams = request.nextUrl.searchParams;
     //use get method to fetch specific parameter
     const query = searchParams.get("query");

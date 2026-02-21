@@ -4,5 +4,5 @@
 1. managing sessions like user logins and shopping carts 
 2. handling personalization (Such as user preferences and themes)
 3. tracking (like recording and analyzing user behaviour)
-
+-> see profile/api/route.ts
 */

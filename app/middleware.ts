@@ -5,7 +5,7 @@ import { NextRequest, NextResponse } from "next/server";
 */
 export function middleware(request: NextRequest){
     //this function redirects to home page when /profile accesed
-    //return NextResponse.redirect(new URL("/", request.url));
+    return NextResponse.redirect(new URL("/", request.url));
 
     //one more approach is conditional approach
     /* if(request.nextUrl.pathname === "/profile"){
@@ -13,14 +13,15 @@ export function middleware(request: NextRequest){
     }*/
 
         //use of cookies and headers in middleware
-        const response = NextResponse.next();
+        /*const response = NextResponse.next();
         const themePreference = request.cookies.get("theme");
         if(!themePreference){
             response.cookies.set("theme", "dark");
         }
 
         response.headers.set("custom-header","custom-value");
-        return response;
+        return response;*/
+        +
 }
 
 // apply the above url only when /profile hits

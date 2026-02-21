@@ -5,9 +5,9 @@
 -> Unlike page routes, which gives us HTML content, Route Handlers lets us build RESTFul endpotins with complete
  control over the response.
 -> Think of it like building a Node + Express app there's no need to setup and configure a seperate server.
--> Route handlers are great when making external API   requests as well. for example if you are building an app that
+-> Route handlers are great when making external API requests as well. for example if you are building an app that
  needs to talk to third part services route handlers are best for that.
- -> Route handlers run server side, our sensitive info like private keys stays secure and never reaches the browser.
+ -> Route handlers run on server side, our sensitive info like private keys stays secure and never reaches the browser.
  -> Route Handlers are the equivalent of API routes like page router.
  -> Next.js supports GET. POST, PUT, PATCH, DELETE, HEAD and OPTIONS. if unsupported method is called, Next.js
  will retun a 405 method not allowed response.
