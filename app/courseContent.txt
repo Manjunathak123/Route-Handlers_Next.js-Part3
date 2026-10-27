@@ -1,0 +1,16 @@
+Next.Js Route Handlers Part-3 Course Content:-
+1. Route Handlers - see components/RouteHandlersIntroduction.tsx
+2. Handling GET Requests - see components/HandlingGETRequestExample.tsx
+3. Handling POST Requests - see components/HandlingGETRequestExample.tsx
+4. Dynamic Route Handlers, Handling PATCH Requests and Handling DELETE Requests - components/DynamicRouteHandlersExample.tsx
+5. URL Query Parameter - components/URLQueryParameterExample.tsx
+6. Headers In Route Handlers -  components/HeadersInRouteHandlersExample.tsx
+7. Cookies In Route Handlers - components/CookiesInRouteHandlersExample.tsx
+8. Redirect In Route Handler - components/RedirectInRouteHandlerExample.tsx
+9. Caching In Route Handlers - 
+10. Middleware - components/MiddlewareExample.tsx
+11. Rendering - components/RenderingExample.tsx
+12. Client Side Rendering -  components/ClientSideRenderingExample.tsx
+13. Server Side Rendering - components/ServerSiderenderingExample.tsx
+14. Suspense SSR - components/SuspenseSSRExample.tsx
+15. React Server Components - components/ReactServerComponentsExample.tsx
