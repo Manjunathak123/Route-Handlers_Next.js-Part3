@@ -48,4 +48,39 @@ A Route Handler is not a routing library; it is a specific feature within Next.j
 • Instead of serving a UI page using a page.tsx file, you create a route.ts file.
 • Inside route.ts, you export standard backend functions like GET, POST, PUT, or DELETE to return JSON data, 
 handle webhooks, or communicate with a database.
+
+
+For creating rest apis which concept we will use in next js 15:-
+
+To create REST APIs in Next.js 15, you will use the Route Handlers concept within the App Router structure.
+Route Handlers replace the older "API Routes" (from the Pages Router) and allow you to create custom request handlers for a given route using the Web Request and Response APIs.
+
+Key Mechanics of Next.js 15 Route Handlers
+
+• File Naming: You must define your endpoints in a route.ts (or .js) file.
+• Directory Structure: These files are placed inside the app/ directory. The folder structure determines the URL path (e.g., app/api/users/route.ts handles requests to /api/users).
+• HTTP Methods: Instead of writing a single default function with a switch(req.method) statement, you directly export named async functions matching the standard HTTP methods (GET, POST, PUT, PATCH, DELETE, etc.) within the same file.
+
+Basic Example (app/api/users/route.ts)
+
+typescript
+import { NextRequest, NextResponse } from 'next/server';
+
+// Handle GET requests to /api/users
+export async function GET(request: NextRequest) {
+  const users = [
+    { id: 1, name: 'Alice' },
+    { id: 2, name: 'Bob' },
+  ];
+  return NextResponse.json(users);
+}
+
+// Handle POST requests to /api/users
+export async function POST(request: NextRequest) {
+  const body = await request.json(); // Parse incoming JSON body
+  
+  // Perform your database creation logic here...
+  
+  return NextResponse.json({ message: 'User created successfully', data: body }, { status: 201 });
+}
 */
