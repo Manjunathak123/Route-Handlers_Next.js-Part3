@@ -26,6 +26,7 @@ Note: File-based routing in Next.js is a replacement for React Router
  -> if you /profile then page.tsx file response will display and if you route /profile/api then route.ts
   file response will display.
 
+Does file based routing in next js is replacement of React router or route handler:-
 
 Note: File-based routing in Next.js is a replacement for React Router, not Route Handlers.
  In fact, Route Handlers are actually a part of Next.js's file-based routing system.
