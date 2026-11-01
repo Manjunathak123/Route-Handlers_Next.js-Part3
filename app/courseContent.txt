@@ -1,7 +1,7 @@
 Next.Js Route Handlers Part-3 Course Content:-
 1. Route Handlers - see components/RouteHandlersIntroduction.tsx
 2. Handling GET Requests - see components/HandlingGETRequestExample.tsx
-3. Handling POST Requests - see components/HandlingGETRequestExample.tsx
+3. Handling POST Requests - see comments/route.ts
 4. Dynamic Route Handlers, Handling PATCH Requests and Handling DELETE Requests - components/DynamicRouteHandlersExample.tsx
 5. URL Query Parameter - components/URLQueryParameterExample.tsx
 6. Headers In Route Handlers -  components/HeadersInRouteHandlersExample.tsx

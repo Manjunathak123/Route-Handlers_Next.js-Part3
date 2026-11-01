@@ -8,7 +8,7 @@ import { NextRequest } from "next/server";
 
 /* Headers in Route handlers:- we can read request headers in two ways. 
 1. We can read headers by using request parameters
-2. By using headers function taht next.js provides
+2. By using headers function that next.js provides
 
 */
 export async function GET(request: NextRequest){

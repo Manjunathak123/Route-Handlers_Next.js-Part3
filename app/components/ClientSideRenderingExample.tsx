@@ -7,7 +7,7 @@ should happen.
  since next.js built on top of React understanding React rendering model is necessary.
  How rendering handles in React:-
  -> React primarly used in building single page applications. when a client visited a website the server would send back
- a single html page. this page contain sipmle div tag and link to javascript file. this conatins bundle.js which is power house
+ a single html page. this page contain simple div tag and link to javascript file. this conatins bundle.js which is power house
  which conatins everything which are react library, components code and everything need to your application, the 
   browser would download this as soon as html processed, once the browser downloads all the javascripts it will get to generate
   html. it will inject into the DOM right there that is where you finally see user interface.(see the doc image)

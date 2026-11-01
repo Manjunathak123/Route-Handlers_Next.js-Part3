@@ -1,7 +1,7 @@
 /* Server Side Rendering Example:- 
 Recollecting drawbacks of CSR:-
-SEO:- Since content relies on Javascript to render on the client side, search engines ofetn
- struggle to index it properly.
+SEO:- Since content relies on Javascript to render on the client side, search engines often
+struggle to index it properly.
 Performance and UX:- Users can suffer from slow load times, as their browsers download, parse and execute Javascript
 before seeing any meaningful content.
 -> To overcome these drawbacks of client side rendring modern react framework like Next.js move towards server side solutions.

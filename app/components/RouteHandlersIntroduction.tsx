@@ -53,13 +53,16 @@ handle webhooks, or communicate with a database.
 For creating rest apis which concept we will use in next js 15:-
 
 To create REST APIs in Next.js 15, you will use the Route Handlers concept within the App Router structure.
-Route Handlers replace the older "API Routes" (from the Pages Router) and allow you to create custom request handlers for a given route using the Web Request and Response APIs.
+Route Handlers replace the older "API Routes" (from the Pages Router) and allow you to create custom request handlers
+for a given route using the Web Request and Response APIs.
 
 Key Mechanics of Next.js 15 Route Handlers
 
 • File Naming: You must define your endpoints in a route.ts (or .js) file.
-• Directory Structure: These files are placed inside the app/ directory. The folder structure determines the URL path (e.g., app/api/users/route.ts handles requests to /api/users).
-• HTTP Methods: Instead of writing a single default function with a switch(req.method) statement, you directly export named async functions matching the standard HTTP methods (GET, POST, PUT, PATCH, DELETE, etc.) within the same file.
+• Directory Structure: These files are placed inside the app/ directory. The folder structure determines the URL 
+path (e.g., app/api/users/route.ts handles requests to /api/users).
+• HTTP Methods: Instead of writing a single default function with a switch(req.method) statement, you directly export 
+named async functions matching the standard HTTP methods (GET, POST, PUT, PATCH, DELETE, etc.) within the same file.
 
 Basic Example (app/api/users/route.ts)
 
